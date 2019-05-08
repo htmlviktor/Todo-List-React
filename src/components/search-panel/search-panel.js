@@ -20,7 +20,6 @@ export default class SearchPanel extends Component {
   }
 
   render() {
-    // const {onSearch} = this.props;
     const {term} = this.state
     return (
       <input type="text"
